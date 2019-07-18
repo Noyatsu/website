@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Six-sided traveler</title>
+    <!--<link rel="icon" href="img/favicon.ico">-->
+    <!-- CSS FILES -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/css/uikit.min.css">
+    <style>
+        .wrap::before {
+            position: absolute;
+            height: 100vh;
+            width: 100vw;
+            content: '';
+            z-index: 1;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .lead {
+            font-size: 1.175em;
+            font-weight: 300;
+        }
+
+        .uk-logo img {
+            height: 28px;
+        }
+    </style>
+</head>
+
+<body
+    class="uk-light wrap uk-background-norepeat uk-background-cover uk-background-center-center uk-cover-container uk-background-secondary">
+    <img sizes="100vw" data-src="img/title.png" alt="" data-uk-cover data-uk-img>
+    <div class="uk-flex uk-flex-center uk-flex-middle uk-height-viewport uk-position-z-index uk-position-relative"
+        data-uk-height-viewport="min-height: 400">
+
+        <!-- NAV -->
+        <div class="uk-position-top">
+            <div class="uk-container uk-container-small">
+                <nav class="uk-navbar-container uk-navbar-transparent" data-uk-navbar>
+                    <div class="uk-navbar-left">
+                        <div class="uk-navbar-item">
+                            <a class="uk-logo" href="index.html"><img src="img/logo.png" alt="Logo"></a>
+                        </div>
+                    </div>
+                    <div class="uk-navbar-right">
+                        <ul class="uk-navbar-nav">
+                            <li class="uk-active uk-visible@m"><a href="index.html" data-uk-icon="home"></a></li>
+                            <li class="uk-visible@s"><a href="pp.html">プライバシーポリシー</a></li>
+                            <li class="uk-visible@s"><a href="pp_e.html">Privacy Policy (EN)</a></li>
+                            <!--<li><a class="uk-navbar-toggle" data-uk-toggle data-uk-navbar-toggle-icon
+                                    href="#offcanvas-nav"></a></li>-->
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- /NAV -->
+        <!-- TEXT -->
+        <div class="uk-container uk-container-small uk-flex-auto uk-text-center"
+            data-uk-scrollspy="target: > .animate; cls: uk-animation-slide-bottom-small uk-invisible; delay: 300">
+            <div class="uk-width-4-5@m uk-margin-auto animate uk-invisible">
+                <img src="img/logo.png" width="100%" />
+                <p class="lead">砂漠にすむ女の子「Zoro」と一緒に6面世界を冒険しよう。</p>
+                <p class="uk-text-meta">3Dサイコロパズルゲーム</p>
+            </div>
+            <div class="uk-margin-medium-top animate uk-invisible" data-uk-margin
+                data-uk-scrollspy-class="uk-animation-fade uk-invisible">
+                <a class="uk-button uk-button-default uk-button-large uk-width-2-3 uk-width-auto@s" title="申請中">申請中</a>
+                <!--<a class="uk-button uk-button-default uk-button-large uk-width-2-3 uk-width-auto@s"
+                    data-uk-icon="arrow-right" title="Learn More">App Store (iOS)</a>
+                <a class="uk-button uk-button-default uk-button-large uk-width-2-3 uk-width-auto@s"
+                    data-uk-icon="arrow-right" title="Learn More">Play Store (Android)</a>-->
+            </div>
+        </div>
+        <!-- /TEXT -->
+        <!-- FOOT -->
+        <div class="uk-position-bottom-center uk-position-small">
+            <span class="uk-text-small uk-text-center">© 2019- Noyatsu Engineering</span>
+        </div>
+        <!-- /FOOT -->
+    </div>
+    <div class="uk-container">
+        <div>
+            <h1>3Dサイコロパズルゲーム!</h1>
+        </div>
+
+    </div>
+    <!-- OFFCANVAS -->
+    <div id="offcanvas-nav" data-uk-offcanvas="flip: true; overlay: false">
+        <div class="uk-offcanvas-bar uk-offcanvas-bar-animation uk-offcanvas-slide">
+            <button class="uk-offcanvas-close uk-close uk-icon" type="button" data-uk-close></button>
+            <ul class="uk-nav uk-nav-default">
+                <li class="uk-visible@s"><a href="">プライバシーポリシー</a></li>
+                <li class="uk-visible@s"><a href="">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </div>
+    -->
+    <!-- /OFFCANVAS -->
+
+    <!-- JS FILES -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit-icons.min.js"></script>
+</body>
+
+</html>

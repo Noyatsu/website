@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Support - Six-sided traveler</title>
+    <!--<link rel="icon" href="img/favicon.ico">-->
+    <!-- CSS FILES -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/css/uikit.min.css">
+    <style>
+        .wrap::before {
+            position: absolute;
+            height: 100vh;
+            width: 100vw;
+            content: '';
+            z-index: 1;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .lead {
+            font-size: 1.175em;
+            font-weight: 300;
+        }
+
+        .uk-logo img {
+            height: 28px;
+        }
+    </style>
+</head>
+
+<body class="uk-light uk-background-secondary" style="min-height: 100vh">
+
+    <!-- NAV -->
+    <div class="">
+        <div class="uk-container uk-container-small">
+            <nav class="uk-navbar-container uk-navbar-transparent" data-uk-navbar>
+                <div class="uk-navbar-left">
+                    <div class="uk-navbar-item">
+                        <a class="uk-logo" href="index.html"><img src="img/logo.png" alt="Logo"></a>
+                    </div>
+                </div>
+                <div class="uk-navbar-right">
+                    <ul class="uk-navbar-nav">
+                        <li class="uk-active uk-visible@m"><a href="index.html" data-uk-icon="home"></a></li>
+                        <li class="uk-visible@s"><a href="pp.html">プライバシーポリシー</a></li>
+                        <li class="uk-visible@s"><a href="pp_e.html">Privacy Policy (EN)</a></li>
+                        <!--<li><a class="uk-navbar-toggle" data-uk-toggle data-uk-navbar-toggle-icon
+                                    href="#offcanvas-nav"></a></li>-->
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- /NAV -->
+    <!-- TEXT -->
+    <div class="uk-container uk-container-small uk-flex-auto uk-text-left uk-margin-top">
+        <h1>Support</h1>
+        <p>
+            Please e-mail us. / サポートを受けるにはメールしてください．<br>
+            <div class="uk-panel uk-panel-muted">
+                noyatsu.engineering@gmail.com
+            </div>
+        </p>
+    </div>
+    <!-- /TEXT -->
+    <!-- FOOT -->
+    <div class="uk-text-center uk-padding">
+        <span class="uk-text-small uk-text-center">© 2019- Noyatsu Engineering</span>
+    </div>
+    <!-- /FOOT -->
+    <!-- OFFCANVAS -->
+    <div id="offcanvas-nav" data-uk-offcanvas="flip: true; overlay: false">
+        <div class="uk-offcanvas-bar uk-offcanvas-bar-animation uk-offcanvas-slide">
+            <button class="uk-offcanvas-close uk-close uk-icon" type="button" data-uk-close></button>
+            <ul class="uk-nav uk-nav-default">
+                <li class="uk-visible@s"><a href="">プライバシーポリシー</a></li>
+                <li class="uk-visible@s"><a href="">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- /OFFCANVAS -->
+
+    <!-- JS FILES -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit-icons.min.js"></script>
+</body>
+
+</html>
